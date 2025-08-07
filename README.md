@@ -238,3 +238,8 @@ The [MCP course from DeepLearning.AI](https://learn.deeplearning.ai/courses/mcp-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🌐 Remote Deployment
+
+- **[MCP Research Server](https://github.com/orhanna14/mcp-server)**: Production server deployed on Render.com
+- **Live Demo**: https://remote-research-s8pk.onrender.com

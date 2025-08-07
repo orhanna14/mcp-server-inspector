@@ -1,14 +1,13 @@
 import json
 import os
 import arxiv
-from typing import List, Dict, Any
-from fastmcp import FastMCP  # Changed from mcp import FastMCP
+from fastmcp import FastMCP
 
 # Constants
 PAPER_DIR = "papers"
 
-# Initialize FastMCP
-mcp = FastMCP("research-server")
+# Initialize FastMCP with a port number.
+mcp = FastMCP("research-server", port=8000)
 
 @mcp.tool()
 def search_papers(topic: str, max_results: int = 5) -> str:
@@ -169,4 +168,4 @@ def generate_search_prompt(topic: str, num_papers: int = 5) -> str:
     Please present both detailed information about each paper and a high-level synthesis of the research landscape in {topic}."""
 
 if __name__ == "__main__":
-    mcp.run() 
+    mcp.run(transport='sse') 
