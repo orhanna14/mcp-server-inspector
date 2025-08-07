@@ -10,6 +10,7 @@ dependencies = [
     "anthropic>=0.50.0",
     "python-dotenv>=1.0.0",
     "nest-asyncio>=1.5.0",
+    "fastmcp>=0.1.0",  # Add FastMCP
 ]
 
 [project.scripts]

@@ -1,0 +1,33 @@
+{
+  "1909.03550v1": {
+    "title": "Lecture Notes: Optimization for Machine Learning",
+    "authors": [
+      "Elad Hazan"
+    ],
+    "published": "2019-09-08",
+    "summary": "Lecture notes on optimization for machine learning, derived from a course at\nPrinceton University and tutorials given in MLSS, Buenos Aires, as well as\nSimons Foundation, Berkeley.",
+    "pdf_url": "http://arxiv.org/pdf/1909.03550v1",
+    "arxiv_id": "1909.03550v1"
+  },
+  "1811.04422v1": {
+    "title": "An Optimal Control View of Adversarial Machine Learning",
+    "authors": [
+      "Xiaojin Zhu"
+    ],
+    "published": "2018-11-11",
+    "summary": "I describe an optimal control view of adversarial machine learning, where the\ndynamical system is the machine learner, the input are adversarial actions, and\nthe control costs are defined by the adversary's goals to do harm and be hard\nto detect. This view encompasses many types of adversarial machine learning,\nincluding test-item attacks, training-data poisoning, and adversarial reward\nshaping. The view encourages adversarial machine learning researcher to utilize\nadvances in control theory and reinforcement learning.",
+    "pdf_url": "http://arxiv.org/pdf/1811.04422v1",
+    "arxiv_id": "1811.04422v1"
+  },
+  "1707.04849v1": {
+    "title": "Minimax deviation strategies for machine learning and recognition with short learning samples",
+    "authors": [
+      "Michail Schlesinger",
+      "Evgeniy Vodolazskiy"
+    ],
+    "published": "2017-07-16",
+    "summary": "The article is devoted to the problem of small learning samples in machine\nlearning. The flaws of maximum likelihood learning and minimax learning are\nlooked into and the concept of minimax deviation learning is introduced that is\nfree of those flaws.",
+    "pdf_url": "http://arxiv.org/pdf/1707.04849v1",
+    "arxiv_id": "1707.04849v1"
+  }
+}
